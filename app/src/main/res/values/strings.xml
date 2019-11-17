@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Dicoding Submission Android</string>
+    <string name="characters_name">Nama Karakter</string>
+    <string name="from">Asal</string>
+    <string name="list">List</string>
+    <string name="description">description</string>
+    <string name="footer">Charachter list of Stranger Things from strangerthings.fandom.com</string>
+    <string name="title_item_detail">Character</string>
+    <string name="my_name">Kafin Salim</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingLeft="@dimen/size_xxs"
+    android:paddingRight="@dimen/size_xxs"
+    tools:context=".AboutActivity">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:src="@drawable/img_profile_kafin"
+        android:layout_width="225dp"
+        android:layout_height="225dp"/>
+    <TextView
+        android:id="@+id/name"
+        android:text="Kafin Salim"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:layout_marginTop="@dimen/size_xxs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/email"
+        android:text="kafinsalim@gmail.com"
+        android:textColor="@android:color/secondary_text_dark"
+        android:textSize="21sp"
+        android:layout_marginTop="@dimen/size_xs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

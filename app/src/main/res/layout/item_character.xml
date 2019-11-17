@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    app:cardCornerRadius="@dimen/size_sm"
+    android:layout_marginHorizontal="@dimen/size_xxs"
+    android:layout_marginVertical="@dimen/size_xs">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:padding="@dimen/size_xs">
+        <ImageView
+            android:id="@+id/img_photo_character"
+            tools:src="@android:color/darker_gray"
+            android:scaleType="centerCrop"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="@dimen/size_md"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/img_photo_character"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/size_xs">
+            <TextView
+                android:id="@+id/tv_character_name"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size_md"
+                android:layout_marginLeft="@dimen/size_md"/>
+            <TextView
+                android:id="@+id/tv_character_description"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="@dimen/size_md"
+                android:layout_marginLeft="@dimen/size_md"
+                android:textColor="@color/youngBlack"/>
+            <Button
+                android:id="@+id/btn_set_detail"
+                android:text="Tampilkan Detail"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:backgroundTint="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

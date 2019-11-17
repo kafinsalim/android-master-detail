@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_vertical_margin">16px</dimen>
+    <dimen name="activity_horizontal_margin">16px</dimen>
+    <dimen name="size_xxs">32px</dimen>
+    <dimen name="size_xs">16px</dimen>
+    <dimen name="size_md">8px</dimen>
+    <dimen name="size_sm">4px</dimen>
+</resources>
